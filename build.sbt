@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).
   settings(
     name := "Http4sPrototype",
     version := "1.0-SNAPSHOT",
-    scalaVersion := "2.11.5",
+    scalaVersion := "2.11.7",
     assemblyJarName := "http4s-prototype.jar",
     mainClass in assembly := Some("org.awesome.http4s.Http4sPrototype")
   )
